@@ -1,0 +1,82 @@
+
+.resposta {
+    display: none;
+    margin-bottom: 10px;
+}
+
+.resposta p {
+    margin: 10px 0 0 0;
+    /*border: 1px solid #000;*/
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.resposta .error {
+    color: #900;
+    border: 3px solid #900;
+    background-color: #ffdfdf;
+}
+
+.resposta .success {
+    color: #090;
+    border: 3px solid #090;
+    background-color: #E8FFE8;
+}
+
+.resposta .load {
+    color: #069;
+    border: 3px solid #069;
+    background-color: #cbe4fd;
+}
+
+.resposta .load img {
+    float: left;
+    width: 18px;
+    margin-right: 10px;
+}
+
+.carregando {
+    width: 490px;
+    background: #900;
+}
+
+.carregando .progress {
+    padding: 5px;
+    background: #060;
+    width: 0%;
+    color: #FFF;
+    text-align: center;
+    max-width: 480px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, .8) url(http://i.stack.imgur.com/FhHRx.gif) 50% 50% no-repeat;
+}
+
+body.loading .modal {
+    display: block;
+}
+
+
+/*LOADER - PROGRESSO*/
+
+.carregando {
+    width: 489px;
+    background: #900;
+}
+
+.carregando .progress {
+    padding: 5px;
+    background: #060;
+    width: 0%;
+    color: #fff;
+    text-align: center;
+    max-width: 479px;
+}

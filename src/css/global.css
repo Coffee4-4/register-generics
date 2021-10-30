@@ -1,0 +1,17 @@
+.img-carrossel{
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 500px;
+}
+
+.fonte-titulo{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.card-imagem{
+    object-fit: cover;
+    min-height: 260px;
+    max-height: 260px;
+
+}
